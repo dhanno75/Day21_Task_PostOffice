@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+  border-radius: 15px;
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(135deg, rgb(220, 220, 204), #d632db);
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  background: linear-gradient(135deg, #cc9934, #1e1d1b);
+  font-weight: 600;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+input {
+  margin-right: 10px;
+  width: 90%;
+  padding: 7px;
+  border: none;
+  border-radius: 10px;
+}
+
+.box1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  background-color: beige;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.4);
+  background-color: rgb(132, 13, 124);
+  transform: translateX(3px);
+  color: beige;
+}
+
+.btn:active {
+  box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3);
+  background-color: rgb(132, 13, 124);
+  transform: translateX(1px);
+  color: beige;
+}
+
+.card {
+  background-color: bisque;
+}
+
+.city-name {
+  background-color: #d632db;
+  color: #1e1d1b;
+}
+
+.col-container {
+  background-color: #cc9934;
+  border-radius: 15px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.col-container:hover {
+  transform: translateX(2px) scale(1.1);
+}
+
+ul {
+  background-color: rgb(218, 218, 194);
+  border-radius: 15px;
+}
+
+li {
+  background-color: bisque !important;
+  padding: 10px;
+}
+
+li:not(:last-child) {
+  border-bottom: 1px dotted rgb(177, 163, 163);
+}
